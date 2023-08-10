@@ -1,0 +1,36 @@
+LMK_KEY,IMPROVEMENT_ITEM,IMPROVEMENT_SUMMARY_TEXT,IMPROVEMENT_DESCR_TEXT,IMPROVEMENT_ID,IMPROVEMENT_ID_TEXT,INDICATIVE_COST_MIN,INDICATIVE_COST_MAX
+042d0c720f8891053b65fedb3f1ee064333784bd8aa2498ae0f6fa2eaa6ac01d,1,Insulate hot water cylinder with 80 mm jacket,Insulate hot water cylinder with 80 mm jacket,1,Insulate hot water cylinder with 80 mm jacket,£15,£30
+019bdacba5ab19dee0cd6c95df05f628af5b040f156b8de08fa449c84e93c779,2,Increase hot water cylinder insulation,Increase hot water cylinder insulation,2,Increase hot water cylinder insulation,£15,£30
+0123d326575f76cacdfb168dee3a63a04fbfde67543b21fec4bf329c0fb5eead,2,Add additional 80 mm jacket to hot water cylinder,Add additional 80 mm jacket to hot water cylinder,3,Add additional 80 mm jacket to hot water cylinder,£15,£30
+008c229e34639e4a1640d87b2f3a563d77195c0a5c8be35899d98aacc035f75c,1,Hot water cylinder thermostat,Hot water cylinder thermostat,4,Hot water cylinder thermostat,£200,£400
+00ce217d540a407b0b13c6a6f7abf9881cdd29de0d1a9204a152dee2488ca5aa,1,Increase loft insulation to 270 mm,Increase loft insulation to 270 mm,5,Increase loft insulation to 270 mm,£100,£350
+009e94642218aa6162ac05450e69c04dfb230e60d61d6138fcd116293be54da4,1,Cavity wall insulation,Cavity wall insulation,6,Cavity wall insulation,£500,"£1,500"
+0023cfbdd02c180965bf643855f430022eed290bfdf1fec6d9a585eae2555517,1,Internal or external wall insulation,Internal or external wall insulation,7,50 mm internal or external wall insulation,"£4,000","£14,000"
+017e8d8061506653eec3a58d6a01bdd4d68265fd7117d5c5213f3d4b4ff05f17,5,Replace single glazed windows with low-E double glazed windows,Double glazed windows,8,Replace single glazed windows with low-E double glazing,"£3,300","£6,500"
+310e16e4ee612884e6f89826310c096a4db0ffc3d80150bedea1ed87001f66bb,4,Secondary glazing to single glazed windows,Secondary glazing to single glazed windows,9,Secondary glazing to single glazed windows,"£1,000","£1,500"
+024b927ab9751f5341f5ee591aec0f7d5c8242f1e1192808ae4a6af8b21e9a7f,5,Draught proofing,Draught proofing,10,Draughtproof single-glazed windows,£80,£120
+008c229e34639e4a1640d87b2f3a563d77195c0a5c8be35899d98aacc035f75c,2,"Heating controls (programmer, room thermostat and TRVs)","Heating controls (programmer, thermostat, TRVs)",11,Upgrade heating controls,£350,£450
+0728e07b9edba0559cb06f5d176be0115cfc32bcd6a20f9030e30e55463f7d27,5,Heating controls (room thermostat and TRVs),Heating controls (room thermostat and TRVs),12,Upgrade heating controls,£350,£450
+019bdacba5ab19dee0cd6c95df05f628af5b040f156b8de08fa449c84e93c779,4,Heating controls (thermostatic radiator valves),Heating controls (TRVs),13,Upgrading heating controls,£350,£450
+02c8cdfac87a83616bd761168bda136e3887461a4bf2c0e764d259589ab666cc,2,Heating controls (room thermostat),Heating controls (room thermostat),14,Upgrade heating controls,£350,£450
+09f4df83d2bd239f54834f642124f94d4d6cfb654f9b818671d02836f4c8a3bd,4,Heating controls (programmer and TRVs),Heating controls (programmer and TRVs),15,Upgrade heating controls,£350,£450
+07d9cb19ad607d4ac56492fc54e99c664bb31c3df6ef03a295e97f06930f7fa8,3,Heating controls (time and temperature zone control),Heating controls (zone control),16,Time and temperature zone control,£350,£450
+00179a48ffa7daceca04e238a747ee95716cb50f847a3afef35d70e8c64cfeb5,1,Solar water heating,Solar water heating,19,Solar water heating,"£4,000","£6,000"
+0023cfbdd02c180965bf643855f430022eed290bfdf1fec6d9a585eae2555517,3,Replace boiler with new condensing boiler,Condensing boiler,20,Replace boiler with new condensing boiler,"£2,200","£3,000"
+53d34baff5a3159f0bc6e557ba76e048a56555ab2e0bf5a106c309baa8df6c54,6,Replace boiler with biomass boiler,Biomass boiler,22,Replace boiler with biomass boiler,"£7,000","£13,000"
+1d1a9fec2a56df4e9b50e4187d3a5c588988297de6856e6ebc242ef541235cfd,3,Replacement warm air unit,Replacement warm air unit,26,Replacement warm air unit,"£1,250","£2,500"
+09089693699a744af66edf912c2720b8b5098fb0e21824e8b55b1b83775c56cd,4,Change heating to gas condensing boiler,Gas condensing boiler,27,Change heating to gas condensing boiler,"£3,000","£7,000"
+00179a48ffa7daceca04e238a747ee95716cb50f847a3afef35d70e8c64cfeb5,2,"Solar photovoltaic panels, 2.5 kWp",Solar photovoltaic panels,34,"Solar photovoltaic panels, 2.5 kWp","£3,500","£5,500"
+00464b5c1ae7f9d3703842f44dfe5cc6e809d5a3a2a06845196112fd8ed63d28,3,Low energy lighting for all fixed outlets,Low energy lighting,35,Low energy lighting for all fixed outlets,£25,£25
+e1f5eab1ea5e9c9930e1f0a511bd3fbc02e8f846dda5197df9e179b251acf046,8,Wood pellet stove with boiler and radiators,Biomass stove with boiler,39,Wood pellet stove with boiler and radiators,"£7,000","£13,000"
+06886cbc39618b02323000241a0080521c8827b888a0bad1b8d41ce006120211,5,Wind turbine,Wind turbine,44,Wind turbine,"£15,000","£25,000"
+0105ae32e62cc8556e70bad58b6e7e095a71cb82fe395e7b3ef6dc18f707cef2,1,Flat roof or sloping ceiling insulation,Flat roof or sloping ceiling insulation,45,Flat roof insulation,£850,"£1,500"
+017e8d8061506653eec3a58d6a01bdd4d68265fd7117d5c5213f3d4b4ff05f17,1,Room-in-roof insulation,Room-in-roof insulation,46,Room-in-roof insulation,"£1,500","£2,700"
+008c229e34639e4a1640d87b2f3a563d77195c0a5c8be35899d98aacc035f75c,3,High performance external doors,High performance external doors,48,High performance external doors,"£2,000","£2,000"
+040a3fd8cbfb10c54ab53346fc3fab5ff5b3355706b8db9dd0cbffa548a10148,3,Heat recovery system for mixer showers,Heat recovery system for mixer showers,49,Heat recovery system for mixer showers,£585,£725
+3cf869d1e070d1b609664b9af1e62040bc604005912711a8d5b327f43586c1df,5,Flue gas heat recovery device in conjunction with boiler,Flue gas heat recovery,50,Flue gas heat recovery device in conjunction with boiler,£400,£900
+019bdacba5ab19dee0cd6c95df05f628af5b040f156b8de08fa449c84e93c779,7,Replacement glazing units,Replacement glazing units,56,Replacement glazing units,"£1,000","£1,400"
+00464b5c1ae7f9d3703842f44dfe5cc6e809d5a3a2a06845196112fd8ed63d28,2,Floor insulation (suspended floor),Floor insulation (suspended floor),57,Suspended floor insulation,£800,"£1,200"
+0023cfbdd02c180965bf643855f430022eed290bfdf1fec6d9a585eae2555517,2,Floor insulation (solid floor),Floor insulation (solid floor),58,Solid floor insulation,"£4,000","£6,000"
+0e163911d0f1e954232aa81b1e0adf042f0645cb203c9ffce39b82c682d339e4,1,High heat retention storage heaters and dual immersion cylinder,High heat retention storage heaters,59,High heat retention storage heaters and dual immersion cylinder,"£2,000","£3,000"
+01468d653424c7090a13b184f196fbb43d08d9c6470b786399cc90d401b74722,1,Party wall insulation,Party wall insulation,63,Party wall insulation,£300,£600
