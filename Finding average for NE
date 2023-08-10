@@ -1,0 +1,65 @@
+import os
+import pandas as pd
+
+ # Directory containing the folders
+main_directory = r'C:\Users\OliverHughes\Downloads\EPC\north east dom cert' 
+
+# Function to extract certificates and return as DataFrame
+def extract_recommendations_to_dataframe(folder_path, folder_name):
+    recommendations_file = os.path.join(folder_path, 'recommendations.csv')
+    if os.path.exists(recommendations_file):
+        df = pd.read_csv(recommendations_file)  # Assuming certificates file is CSV, adjust accordingly
+        df['Folder'] = folder_name  # Add a new column 'Folder' with folder_name
+        return df
+    return None
+
+# Create an empty list to hold the DataFrames
+dataframes = []
+
+# Iterate through folders
+for folder_name in os.listdir(main_directory):
+    folder_path = os.path.join(main_directory, folder_name)
+    if os.path.isdir(folder_path):
+        df = extract_recommendations_to_dataframe(folder_path, folder_name)
+        if df is not None:
+            dataframes.append(df)
+
+combined_dataframe = pd.concat(dataframes, ignore_index=True)
+
+
+
+
+#output_csv_path = 'recommendations for all NE Domestic EPCs.csv'
+
+#combined_dataframe.to_csv(output_csv_path, index=False) 
+
+
+
+
+import pandas as pd
+
+fp1 = r'C:\Users\OliverHughes\Downloads\EPC\recommendation costs domestic.csv'
+fp2 = r'C:\Users\OliverHughes\Downloads\EPC\north east dom cert\recommendations for all NE Domestic EPCs.csv'
+
+df1 = pd.read_csv(fp1, encoding='ISO-8859-1')
+df2 = pd.read_csv(fp2)
+
+merged_df = df1.merge(df2, on='IMPROVEMENT_ID_TEXT', how='inner')
+
+#merged_df.head()
+
+
+
+
+
+
+# List of column names to delete
+columns_to_delete = ['LMK_KEY_y', 'IMPROVEMENT_ITEM_y', 'IMPROVEMENT_SUMMARY_TEXT_y', 'IMPROVEMENT_DESCR_TEXT_y', 'IMPROVEMENT_ID_y', 'INDICATIVE_COST']
+
+# Use the drop method to delete the specified columns
+merged_df = merged_df.drop(columns=columns_to_delete)
+
+#merged_df.head()
+
+average_cost = merged_df['INDICATIVE_COST_MAX'].mean()
+print("Average Indicative Cost Max:", average_cost)
